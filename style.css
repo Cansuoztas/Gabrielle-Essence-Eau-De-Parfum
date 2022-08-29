@@ -88,6 +88,11 @@ button {
   text-decoration: line-through;
   color: var(--bg-darkGrayishBlue);
 }
+button:hover {
+  cursor: pointer;
+  transform: scale(95%);
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 390px) and (min-width: 0px) {
   .desktop-img {
@@ -123,11 +128,6 @@ button {
   button i {
     margin-right: 10px;
     font-size: 1.1rem;
-  }
-  button:hover {
-    cursor: pointer;
-    transform: scale(110%);
-    opacity: 0.8;
   }
 }
 
